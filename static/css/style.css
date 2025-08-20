@@ -1,0 +1,14 @@
+
+body {
+    background-image: url('/static/images/cybersecurity-concept-collage-design.jpg'); /* Explicit path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    /* Fallback background color if image fails */
+    background-color: #acb3be; /* Dark slate gray, cybersecurity vibe */
+}
+
+#results, #error {
+    transition: opacity 0.3s ease;
+}
